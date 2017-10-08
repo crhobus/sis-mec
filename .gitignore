@@ -21,7 +21,7 @@
 hs_err_pid*
 
 ### Maven ###
-target/
+**/target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -35,12 +35,12 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 
 ### NetBeans ###
-nbproject/**
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+**/nbproject/private/
+**/build/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
 
 ######################
 # Windows
@@ -50,3 +50,42 @@ Thumbs.db
 
 # Folder config file
 Desktop.ini
+
+### Eclipse ###
+**/.metadata
+**/bin/
+**/tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+**/.settings/
+**/.loadpath
+**/.recommenders
+
+# External tool builders
+**/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Java annotation processor (APT)
+**/.factorypath
+
+# sbteclipse plugin
+**/.target
+
+# Tern plugin
+**/.tern-project
+
+# TeXlipse plugin
+**/.texlipse
+
+# STS (Spring Tool Suite)
+**/.springBeans
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+**/.cache-main
+**/.scala_dependencies
+**/.worksheet

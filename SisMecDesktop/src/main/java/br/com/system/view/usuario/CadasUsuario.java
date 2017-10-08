@@ -181,6 +181,10 @@ public class CadasUsuario extends WJDialog implements WActionSalvarListener, WAc
         cbPermissao.setEnabled(!isRebootSystem());
         cbSituacao.setEnabled(!isRebootSystem());
         cbSituacao.setSelected(isRebootSystem());
+
+        if (isRebootSystem()) {
+            cbPermissao.setSelectedIndex(1);
+        }
     }
 
     private void limparFrame() {
